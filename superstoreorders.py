@@ -56,6 +56,6 @@ ORDER BY
 	TOTAL_SALES DESC;
 """
 
-# Load query results into DataFrame
+
 df = pd.read_sql(query, engine)
 print(df)
